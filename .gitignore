@@ -177,13 +177,15 @@ Temporary Items
 #dmdoc default folder
 /dmdoc
 
+# Ignore config
+/config/*
+!/config/example
+!/config/example/*
+
 # Ignore custom music and title screens (amend as appropriate)
-/config/jukebox_music/sounds/*
-!/config/jukebox_music/sounds/exclude
-/config/title_music/sounds/*
-!/config/title_music/sounds/exclude
-/config/title_screens/images/*
-!/config/title_screens/images/exclude
+/config/example/jukebox_music/sounds/exclude
+/config/example/title_music/sounds/exclude
+/config/example/title_screens/images/exclude
 
 #Linux docker
 /tools/LinuxOneShot/SetupProgram/obj/*
