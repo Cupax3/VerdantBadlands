@@ -32,6 +32,12 @@
 			"problemMatcher": [],
 			"label": "npm: build - tgui/packages/tgfont",
 			"detail": "node mkdist.cjs && fantasticon --config config.cjs"
+		},
+		{
+			"label": "Run Test Server",
+			"group": "test",
+			"command": "C:/Program Files (x86)/BYOND/bin/dreamdaemon.exe",
+			"args": ["${workspaceRoot}/verdant.dmb", "-invisible", "-verbose", "-trusted"]
 		}
 	]
 }
