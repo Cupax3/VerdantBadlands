@@ -63,6 +63,10 @@
 /obj/effect/landmark/start/f13/vaultengineer,
 /turf/open/indestructible/sound/pool,
 /area/admin)
+"iP" = (
+/obj/machinery/money_machine,
+/turf/open/indestructible/ground/bl/outside/stone,
+/area/centcom/vip)
 "gM" = (
 /obj/structure/shieldwall/large/active,
 /turf/open/indestructible/ground/bl/outside/stone,
@@ -482,7 +486,7 @@ iS
 NA
 iS
 RL
-iS
+iP
 hd
 iS
 gM
